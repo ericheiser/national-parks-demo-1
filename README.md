@@ -1,4 +1,6 @@
 # Enterprise Automation Stack - National Parks - Java Tomcat Application
+
+[![IaC](https://app.soluble.cloud/api/v1/public/badges/5711cb06-a824-4b76-a66d-9c8d275a92c8.svg)](https://app.soluble.cloud/repos/details/github.com/ericheiser/national-parks-demo-1)  [![HIPAA](https://app.soluble.cloud/api/v1/public/badges/35ab580d-91e8-4277-93aa-64297e5d0b5c.svg)](https://app.soluble.cloud/repos/details/github.com/ericheiser/national-parks-demo-1)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/16cfaaa3-dc77-47c5-ac53-29851d3814c7.svg)](https://app.soluble.cloud/repos/details/github.com/ericheiser/national-parks-demo-1)  
 This is an example Java Tomcat application packaged by [Habitat](https://habitat.sh) on VMs hardened and patched by Chef and Audited by Inspec using the "Effortless" pattern. This example app has existed for some time, and another example can be found [here](https://github.com/habitat-sh/national-parks). The differences with this example versus previous examples are the following:
 
 - `core/mongodb` - Previous examples had you build a version of mongodb that was already populated with data before the application 
